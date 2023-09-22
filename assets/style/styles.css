@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('woff2'),
+    url('../fonts/Poppins-Black.ttf') format('woff2'),
+    url('../fonts/Poppins-BlackItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-Bold.ttf') format('woff2'),
+    url('../fonts/Poppins-BoldItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-ExtraBold.ttf') format('woff2'),
+    url('../fonts/Poppins-ExtraBoldItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-ExtraLight.ttf') format('woff2'),
+    url('../fonts/Poppins-ExtraLightItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-Italic.ttf') format('woff2'),
+    url('../fonts/Poppins-Light.ttf') format('woff2'),
+    url('../fonts/Poppins-LightItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-Medium.ttf') format('woff2'),
+    url('../fonts/Poppins-MediumItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-SemiBold.ttf') format('woff2'),
+    url('../fonts/Poppins-SemiBoldItalic.ttf') format('woff2'),
+    url('../fonts/Poppins-Thin.ttf') format('woff2'),
+    url('../fonts/Poppins-ThinItalic.ttf') format('woff2');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +38,7 @@ header{
 h1{
     font-size: 2.8rem;
     color: #FFF;
-    font-weight: 600;
+    font-weight: bolder;
     width: 50%;
     text-align: center;
 }
@@ -211,24 +233,18 @@ form{
 }
 #section4 > article > #section4Texto > h2{
     font-size: 2.8rem;
+    font-weight: bolder;
     color: #1053F3;
     /*padding: 1.5rem;*/
 }
 #section4 > article > #section4Texto > h3{
     color: #1053F3;
+    font-weight: bold;
     text-align: justify;
     font-size: 1.8rem;    
 }
 #equipe {
     width: 600px;
-    /* float: right; */
-    /* margin-right: 70px;
-    margin-bottom: 70px; */
-    /*
-    margin-left: auto;
-    margin-right: 70px;
-    display: flex;
-    justify-content: flex-end;*/
 }
 
 #section4Texto{
