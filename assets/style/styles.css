@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+header{
+    background-color: #1053F3;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 2.8rem;
+    color: #FFF;
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 30rem;
+    padding: 1.2rem;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+input::placeholder{
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#logo{
+    height: 4rem;
+}
+
+#headerNav{
+    display: flex;
+    gap: 4rem;
+    z-index: 2;
+}
+
+#headerNav > button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#headerNav > button:hover{
+    background-color: #4a7ffc;
+    transition: 300ms;
+}
+
+#section1{
+    background-color: #1053F3;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+#section1 > h2{
+    font-weight: 300;
+    width: 35%;
+    text-align: center;
+    color: #FFF;
+}
+#section1 > button:hover{
+    background-color: #4a7ffc;
+    transition: 300ms;
+    color: #ffffff
+}
+
+#section1 > button{
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: #003D76;
+    font-family: 500;
+}
+
+#ThreeRings{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+#section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1.5rem;
+    padding: 2rem 6rem;
+}
+
+#onion{
+    position: absolute;
+    left: 0;
+    top: 50vh;
+}
+
+#section2 > article{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+#section2 > article > h2{
+    font-size: 2.8rem;
+    color: #1053F3;
+}
+
+#section2 > article > p{
+    color: #003D76;
+    width: 60%;
+    font-size: 1.1rem;
+}
+
+#section3{
+    height: 60vh;
+    background-color: #1053F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+#section3 > article{
+    width: 40%;
+}
+
+#section3 > article > h2, #section3 > form > h2{
+    color: #ffffff;
+    font-size: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#section3 > article > p{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+#TwoOnions{
+    position: absolute;
+    right: 0;
+    margin-top: -530px;
+}
+
+#section3 > form > button{
+    font-size: 1.2rem;
+    width: 100%;
+    color: #ffffff;
+    background-color: #4392F1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+#section3 > form > button:hover{
+    background-color: #83bbff;
+    transition: 300ms;
+}
+
+#section4 > article{
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section4 > article > #section4Texto > p { /*olivia editando*/ 
+    font-size: 1.2rem;
+    color: #000000;
+    text-align: justify;
+    width: 80%;
+    
+}
+#section4 > article > #section4Texto > h2{
+    font-size: 2.8rem;
+    color: #1053F3;
+    /*padding: 1.5rem;*/
+}
+#section4 > article > #section4Texto > h3{
+    color: #1053F3;
+    text-align: justify;
+    font-size: 1.8rem;    
+}
+#equipe {
+    width: 600px;
+    /* float: right; */
+    /* margin-right: 70px;
+    margin-bottom: 70px; */
+    /*
+    margin-left: auto;
+    margin-right: 70px;
+    display: flex;
+    justify-content: flex-end;*/
+}
+
+#section4Texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: flex-start;
+}
