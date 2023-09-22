@@ -80,12 +80,12 @@ form{
 
 #section1{
     background-color: #1053F3;
-    height: 65vh;
     display: flex;
     justify-content: center;
     gap: 4rem;
     align-items: center;
     flex-direction: column;
+    padding: 4rem 0;
 }
 
 #section1 > h2{
@@ -122,7 +122,6 @@ form{
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    padding: 1.5rem;
     padding: 2rem 6rem;
 }
 
@@ -153,12 +152,11 @@ form{
 }
 
 #section3{
-    height: 60vh;
     background-color: #1053F3;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 6rem;
+    padding: 4rem 6rem;
 }
 
 #section3 > article{
